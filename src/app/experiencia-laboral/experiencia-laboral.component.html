@@ -1,0 +1,19 @@
+<h3> Competencias Laborales</h3>
+
+<table border="0">
+
+  <ul *ngFor="let Experiencia of ExperienciaLaboral">
+
+    <li>
+      <tr>
+        <td> {{Experiencia.Tecnologia}} </td>
+        <td> {{Experiencia.Area}} </td>
+      </tr>
+    </li>
+
+    <li>
+      <td> {{Experiencia.Nivel}}  </td>
+    </li>
+  </ul>
+
+</table>
