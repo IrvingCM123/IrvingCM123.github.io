@@ -1,38 +1,44 @@
-<h3>Experiencia Laboral</h3>
+<article class="Contenedor">
+  <Section class="Titulo_Caja">
+    <h1 class="Titulo_Letra">Experiencia Laboral</h1>
+  </Section>
 
-<table border="0">
+  <table class="Tabla_Contenido">
+    <ul *ngFor="let work of workExperience">
+      <li>
+        <tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Fecha de trabajo:</p>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.fecha}} </p>
+        </tr>
 
-  <ul *ngFor="let work of workExperience">
+        <tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Lugar de Trabajo:</p>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.ubicacion}} </p>
+        </tr>
 
-    <li>
-      <tr>
-        <td>{{ work.fecha }}</td>
-        <td>{{ work.ubicacion }}</td>
-      </tr>
+        <tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Empresa de Trabajo:</p>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.empresa}} </p>
+        </tr>
 
-      <tr>
-        <td>{{ work.puesto }}</td>
-        <td></td>
-      </tr>
+        <tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Puesto de Trabajo:</p>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.puesto}} </p>
+        </tr>
 
-      <tr>
-        <td>{{ work.empresa }}</td>
-        <td></td>
-      </tr>
 
-      <tr>
-        <td> Logros </td>
-      </tr>
+        <tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Logros: </p>
+        </tr>
 
-      <ul *ngFor="let logro of work.logros">
-        <li>
-          <tr>
-            <td>{{ logro.descripcion }}</td>
-          </tr>
-        </li>
-      </ul>
-    </li>
-
-  </ul>
-
-</table>
+        <ul *ngFor="let logro of work.logros">
+          <li>
+            <tr>
+              <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{logro.descripcion}} </p>
+            </tr>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </table>
+</article>

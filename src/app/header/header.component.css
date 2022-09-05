@@ -1,0 +1,65 @@
+.Caja {
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-items: center;
+
+}
+
+.Caja_Letra_Titulo {
+  color: crimson;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.Caja_Informacion {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.Caja_Informacion-Foto {
+  margin: 10px;
+  width: 15rem;
+  height: 25rem;
+
+  border-radius: 7rem;
+  border-color: black;
+  border-style: groove;
+
+}
+
+.Caja_Informacion_Datos p{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: left;
+  justify-items: left;
+}
+
+.Caja_Informacion_Datos-Titulo {
+  padding-top: 0;
+  margin: 1rem 1rem;
+  font-size: 25px;
+  color: brown;
+}
+
+.Caja_Informacion_Datos-Subtitulo{
+  padding: 1px 2px;
+  margin: 10px 0;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  color: black;
+}
+
+.Caja_Informacion_Datos-Info{
+  padding: 1px 2px;
+  margin: 6px 0;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: dimgrey;
+}
