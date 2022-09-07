@@ -1,8 +1,3 @@
-.Contenedor {
-  padding-top: 3rem;
-  margin: 0;
-}
-
 .Titulo_Caja {
   display: flex;
   flex-direction: column;
