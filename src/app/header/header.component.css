@@ -9,13 +9,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin:1rem;
+  margin:0;
   padding: 0;
 }
 
 .Caja_Header_Tabla {
   width: 40%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .Caja_Header_Datos {
@@ -41,10 +43,9 @@
 
 .Caja_Informacion-Foto {
   padding: 0;
-  margin: 15px;
   width: 10rem;
   height: 15rem;
-  margin: 2rem;
+  margin: 0 2rem;
   border-radius: 7rem;
   border-color: black;
   border-style: groove;
@@ -57,7 +58,7 @@
 
   justify-content: left;
   justify-items: left;
-  margin-left: 2rem;
+  margin: 0 0 0 2;
 }
 
 .Caja_Informacion_Datos-Titulo {
@@ -69,7 +70,7 @@
 
 .Caja_Informacion_Datos-Subtitulo{
   padding: 1px 2px;
-  margin: 10px 0;
+  margin: 0;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 800;
@@ -83,4 +84,16 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   color: dimgrey;
+}
+
+.Barra {
+  width: 100%;
+  height: 5px;
+  background-color: brown;
+  border: 5px;
+  border-color: brown;
+  border-style: hidden;
+
+  margin: 0;
+  padding: 0;
 }
