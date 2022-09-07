@@ -35,3 +35,18 @@
   align-content: center;
   align-items: center;
 }
+
+.Tabla_Contenido {
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.Tabla_Contenido-Colum1{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
