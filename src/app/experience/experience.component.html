@@ -1,0 +1,27 @@
+
+<article class="Contenedor">
+  <section class="Contenedor_Titulo-Barra">
+  <h1 class="Contenedor_Titulo-Letra">
+    Habilidades y competencias
+  </h1>
+  </section>
+
+
+<table >
+  <ul *ngFor="let Experiencia of ExperienciaLaboral">
+    <li>
+      <tr>
+        <p class="Caja_Informacion_Datos-LetraTitulo">Tecnologia</p>
+        <p class="Caja_Informacion_Datos-LetraInfo"> {{ Experiencia.Tecnologia }} </p>
+
+        <td>
+          <p class="Caja_Informacion_Datos-LetraTitulo">Nivel</p>
+          <p class="Caja_Informacion_Datos-LetraInfo">{{ Experiencia.Nivel }}</p>
+        </td>
+      </tr>
+    </li>
+
+  </ul>
+</table>
+
+</article>
