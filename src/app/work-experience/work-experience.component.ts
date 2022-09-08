@@ -15,9 +15,9 @@ export class WorkExperienceComponent implements OnInit {
 
 
     let work1 = {
-      fecha: "2018-2022",
-      ubicacion: "Orizaba, Ver",
-      puesto: "CEO",
+      fecha: "2022-2022",
+      ubicacion: "Orizaba",
+      puesto: "Web Design",
       empresa: "Waves Lab",
       logros : [
         {descripcion: " Contruccion de un ERP en la nube de google"},
@@ -27,9 +27,9 @@ export class WorkExperienceComponent implements OnInit {
     };
 
     let work2 = {
-      fecha: "2014-2018",
-      ubicacion: "Orizaba, ver",
-      puesto: "CEO",
+      fecha: "2021-2022",
+      ubicacion: "Orizaba",
+      puesto: "Artificial Intelligence Developer",
       empresa: "Kubeet",
       logros: [
         {descripcion: "Contruccion de un invernadero hidropoico"},
@@ -38,13 +38,13 @@ export class WorkExperienceComponent implements OnInit {
     };
 
     let work3 = {
-      fecha: "2010-2014",
-      ubicacion: "Orizaba,Ver",
-      puesto: "CEO",
+      fecha: "2020-2021",
+      ubicacion: "Orizaba",
+      puesto: "Database Manager",
       empresa: "ADESOFT",
       logros: [
-        {descripcion: "Contruccion de ERP en la nube de google"},
-        {descripcion: "Creacion de un cluster en hadoop y spark"}
+        {descripcion: "Análisis de datos"},
+        {descripcion: "Gestión y control de las bases de datos"}
       ]
     };
 
