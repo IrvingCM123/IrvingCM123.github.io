@@ -21,7 +21,6 @@
 }
 
 .Tabla_Contenido {
-  padding: 1rem;
   background-color: antiquewhite;
   width: 100%;
 }
@@ -39,7 +38,7 @@
 }
 
 .Tabla_Contenido_Letra-Texto {
-  padding-left: 2rem;
   font-size: 20px;
   color: darkgray;
+  margin: 0;
 }

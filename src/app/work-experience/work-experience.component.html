@@ -5,40 +5,39 @@
 
   <table class="Tabla_Contenido">
     <ul *ngFor="let work of workExperience">
-      <li>
-        <tr>
-          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Fecha de trabajo:</p>
-          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.fecha}} </p>
-        </tr>
+      <tr>
+        <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+          {{ work.fecha }}
+        </p>
 
-        <tr>
-          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Lugar de Trabajo:</p>
-          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.ubicacion}} </p>
-        </tr>
+        <td>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+            {{ work.ubicacion }}
+          </p>
+        </td>
+      </tr>
 
-        <tr>
-          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Empresa de Trabajo:</p>
-          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.empresa}} </p>
-        </tr>
+      <tr>
+        <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+          {{ work.empresa }}
+        </p>
+      </tr>
 
-        <tr>
-          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Puesto de Trabajo:</p>
-          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{work.puesto}} </p>
-        </tr>
+      <tr>
+        <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+          {{ work.puesto }}
+        </p>
+      </tr>
 
-
-        <tr>
-          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">Logros: </p>
-        </tr>
-
-        <ul *ngFor="let logro of work.logros">
-          <li>
-            <tr>
-              <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto"> {{logro.descripcion}} </p>
-            </tr>
-          </li>
-        </ul>
-      </li>
+      <ul *ngFor="let logro of work.logros">
+        <li>
+          <tr>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{ logro.descripcion }}
+            </p>
+          </tr>
+        </li>
+      </ul>
     </ul>
   </table>
 </article>
