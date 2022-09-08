@@ -16,49 +16,65 @@ export class ExperienceComponent implements OnInit {
     let Experiencia1 = {
       Tecnologia: "HTML",
       Area: "Desarrollo Web",
-      Nivel: 5
+      Nivel: [
+        {},{},{},{},{}
+      ]
     }
 
     let Experiencia2 = {
       Tecnologia: "CSS",
       Area: "Desarrollo Web",
-      Nivel: 5
+      Nivel: [
+        {},{},{},{},{}
+      ]
     }
 
     let Experiencia3 = {
       Tecnologia: "JS",
       Area: "Desarrollo Web",
-      Nivel: 3
+      Nivel: [
+        {},{}
+      ]
     }
 
     let Experiencia4 = {
       Tecnologia : "Node JS",
       Area: "Desarrollo Web",
-      Nivel: 3
+      Nivel: [
+        {},{},{}
+      ]
     }
 
     let Experiencia5 = {
       Tecnologia: "REACT",
       Area: "Desarrollo Web",
-      Nivel: 3
+      Nivel: [
+        {},{},{}
+      ]
     }
 
     let Experiencia6 = {
       Tecnologia: "SQL Server",
       Area: "Base de Datos",
-      Nivel: 5
+      Nivel: [
+        {},{},{},{},{}
+      ]
     }
 
     let Experiencia7 = {
       Tecnologia: "MySQL",
       Area: "Base de Datos",
-      Nivel: 4
+      Nivel: [
+        {},{},{},{}
+      ]
     }
 
     let Experiencia8 = {
       Tecnologia: "Draw.io",
       Area: "Diseño de Software",
-      Nivel: 3
+      Nivel: [
+        {},{},{},{}
+      ]
     }
 
     this.ExperienciaLaboral.push(Experiencia1);

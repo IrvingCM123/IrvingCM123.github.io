@@ -1,27 +1,32 @@
-
 <article class="Contenedor">
-  <section class="Contenedor_Titulo-Barra">
-  <h1 class="Contenedor_Titulo-Letra">
-    Habilidades y competencias
-  </h1>
+  <section class="Titulo_Caja">
+    <h1 class="Titulo_Letra">Habilidades y competencias</h1>
   </section>
 
+  <table class="Tabla_Contenido">
+    <ul *ngFor="let Experiencia of ExperienciaLaboral">
+        <tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+            Tecnologia
+          </p>
+          <td>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{ Experiencia.Tecnologia }}
+            </p>
+          </td>
+        </tr>
 
-<table >
-  <ul *ngFor="let Experiencia of ExperienciaLaboral">
-    <li>
-      <tr>
-        <p class="Caja_Informacion_Datos-LetraTitulo">Tecnologia</p>
-        <p class="Caja_Informacion_Datos-LetraInfo"> {{ Experiencia.Tecnologia }} </p>
+        <td class="Tabla_Contenido_Icono">
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+            Nivel
+          </p>
 
-        <td>
-          <p class="Caja_Informacion_Datos-LetraTitulo">Nivel</p>
-          <p class="Caja_Informacion_Datos-LetraInfo">{{ Experiencia.Nivel }}</p>
+          <ul *ngFor="let nivel of Experiencia.Nivel">
+            <td>
+              <img class="Tabla_Contenido_Imagen" src="../../assets/estrella.png" alt=""/>
+            </td>
+          </ul>
         </td>
-      </tr>
-    </li>
-
-  </ul>
-</table>
-
+    </ul>
+  </table>
 </article>
