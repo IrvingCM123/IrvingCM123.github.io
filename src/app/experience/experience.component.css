@@ -1,12 +1,4 @@
-.Contenedor {
-  display: flex;
-  flex-direction: column;
-
-  width: 20rem;
-  height: 100%;
-}
-
-.Contenedor_Titulo-Barra {
+.Titulo_Caja {
   display: flex;
   flex-direction: column;
 
@@ -15,10 +7,11 @@
   align-items: center;
   justify-content: center;
   height: 2rem;
+  width: 20rem;
   padding: 0;
 }
 
-.Contenedor_Titulo-Letra {
+.Titulo_Letra{
   margin: 0;
   padding: 0;
   font-size: 20px;
@@ -28,21 +21,45 @@
   color: black;
 }
 
-.Caja_Informacion_Datos-LetraTitulo{
-  padding: 1px 2px;
-  margin: 10px 0;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 800;
-  color: black;
-  
+.Tabla_Contenido {
+  background-color: antiquewhite;
+  width: 100%;
 }
 
-.Caja_Informacion_Datos-LetraInfo{
-  padding: 1px 2px;
-  margin: 6px 0;
-  font-size: 15px;
+.Tabla_Contenido_Letra {
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 600;
-  color: dimgrey;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.Tabla_Contenido_Letra-Titulo {
+  font-size: 20px;
+  color: black;
+  margin: 0rem ;
+  margin-left: 1rem;
+}
+
+.Tabla_Contenido_Letra-Texto {
+  font-size: 20px;
+  color: darkgray;
+  margin: 0rem;
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+.Tabla_Contenido_Imagen {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.Tabla_Contenido_Icono {
+  display: flex;
+  flex-direction: row;
+}
+
+.Tabla_Contenido_Icono ul {
+  margin-left: 1rem;
+  padding: 0;
 }
