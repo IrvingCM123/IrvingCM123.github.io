@@ -17,7 +17,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "HTML",
       Area: "Desarrollo Web",
       Nivel: [
-        {},{},{},{},{}
+        {porcentaje: 80}
       ]
     }
 
@@ -25,7 +25,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "CSS",
       Area: "Desarrollo Web",
       Nivel: [
-        {},{},{},{},{}
+        {porcentaje: 70}
       ]
     }
 
@@ -33,7 +33,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "JS",
       Area: "Desarrollo Web",
       Nivel: [
-        {},{}
+        {porcentaje: 50}
       ]
     }
 
@@ -41,7 +41,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia : "Node JS",
       Area: "Desarrollo Web",
       Nivel: [
-        {},{},{}
+        {porcentaje: 70}
       ]
     }
 
@@ -49,7 +49,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "REACT",
       Area: "Desarrollo Web",
       Nivel: [
-        {},{},{}
+        {porcentaje:70}
       ]
     }
 
@@ -57,7 +57,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "SQL Server",
       Area: "Base de Datos",
       Nivel: [
-        {},{},{},{},{}
+        {porcentaje: 90}
       ]
     }
 
@@ -65,7 +65,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "MySQL",
       Area: "Base de Datos",
       Nivel: [
-        {},{},{},{}
+        {porcentaje: 80}
       ]
     }
 
@@ -73,7 +73,23 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "Draw.io",
       Area: "Diseño de Software",
       Nivel: [
-        {},{},{},{}
+        {porcentaje: 60}
+      ]
+    }
+
+    let Experiencia9 = {
+      Tecnologia: "Angular",
+      Area: "Desarrollo Web",
+      Nivel: [
+        {porcentaje: 80}
+      ]
+    }
+
+    let Experiencia10 = {
+      Tecnologia: "Postgres",
+      Area: "Base de datos",
+      Nivel: [
+        {porcentaje: 60}
       ]
     }
 
@@ -85,6 +101,8 @@ export class ExperienceComponent implements OnInit {
     this.ExperienciaLaboral.push(Experiencia6);
     this.ExperienciaLaboral.push(Experiencia7);
     this.ExperienciaLaboral.push(Experiencia8);
+    this.ExperienciaLaboral.push(Experiencia9);
+    this.ExperienciaLaboral.push(Experiencia10);
 
   }
 

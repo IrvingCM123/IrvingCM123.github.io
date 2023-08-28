@@ -37,10 +37,18 @@ export class CertificadosComponent implements OnInit {
       Experiencia: "1 año"
     }
 
+    let Certificado5 = {
+      Nombre: "Curso de Python",
+      Descripcion: "Curso realizado en Kaggle",
+      Experiencia: "2 dias",
+      Imagen: "../../assets/Certificado.png"
+    }
+
     this.Certificados.push(Certificado1);
     this.Certificados.push(Certificado2);
     this.Certificados.push(Certificado3);
     this.Certificados.push(Certificado4);
+    this.Certificados.push(Certificado5)
   }
 
 }

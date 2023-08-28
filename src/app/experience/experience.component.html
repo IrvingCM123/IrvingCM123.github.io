@@ -4,17 +4,16 @@
   </section>
 
   <table class="Tabla_Contenido">
-    <ul *ngFor="let Experiencia of ExperienciaLaboral">
-        <tr>
+    <ng-container *ngFor="let Experiencia of ExperienciaLaboral">
+      <tr>
+        <td>
           <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
             Tecnologia
           </p>
-          <td>
-            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
-              {{ Experiencia.Tecnologia }}
-            </p>
-          </td>
-        </tr>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Texto">
+            {{ Experiencia.Tecnologia }}
+          </p>
+        </td>
 
         <td class="Tabla_Contenido_Icono">
           <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
@@ -22,11 +21,11 @@
           </p>
 
           <ul *ngFor="let nivel of Experiencia.Nivel">
-            <td>
-              <img class="Tabla_Contenido_Imagen" src="../../assets/estrella.png" alt=""/>
-            </td>
+            <progress value="{{nivel.porcentaje}}" max="100"> 70%</progress>
+            <br>
           </ul>
         </td>
-    </ul>
+      </tr>
+    </ng-container>
   </table>
 </article>
